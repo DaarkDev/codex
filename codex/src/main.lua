@@ -38,7 +38,7 @@ system = {
 FileLink-CoDeX Snapshot 21w01a
 ]],
 	["version"] = "1.2s",
-	["file_bytes"] = 11647,
+	["file_bytes"] = 11633,
 	["full_userinput"] = function()
 		local s = ""
 		for k,v in pairs(__current) do
