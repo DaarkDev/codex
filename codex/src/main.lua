@@ -66,8 +66,8 @@ function __immediateDir()
 	end
 end
 
-file = io.open("uicolor.txt", "r");
-filedata = __file:read("*a");
+__file = io.open("uicolor.txt", "r");
+__filedata = __file:read("*a");
 if __filedata == "" then
 	print("NO USER-INPUT COLOR FOUND. SELECTING DEFAULT.");
 	__uicolor = "\27[37;m";
