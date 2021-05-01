@@ -68,6 +68,7 @@ end
 
 print(lfs.currentdir())
 local __file = io.open("uicolor.txt", "r");
+os.exit()
 local __filedata = __file:read("*a");
 if __filedata == "" then
 	print("NO USER-INPUT COLOR FOUND. SELECTING DEFAULT.");
