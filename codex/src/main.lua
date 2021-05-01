@@ -66,8 +66,7 @@ function __immediateDir()
 	end
 end
 
-print(lfs.currentdir())
-local __file = io.open("uicolor.txt", "r");
+local __file = print(io.open("uicolor.txt", "r"));
 os.exit()
 local __filedata = __file:read("*a");
 if __filedata == "" then
