@@ -431,7 +431,7 @@ xpcall(__getApps, __error)
 --Main Loop
 function __main()
     local __curdir = lfs.currentdir()
-    io.write(__midblue .. "[" .. __red .. "beta" .. __white .. "-" .. __midblue .. system.version .. __darkcyan .. "@" .. __lightgreen .. __immediateDir() .. __midblue .. "]" .. __darkcyan .. " > " .. __uicolor)
+    io.write(__midblue .. "[" .. __red .. "beta" .. __white .. "-" .. __midblue .. system.version .. __darkcyan .. "@" .. __lightgreen .. __immediateDir() .. __midblue .. "]" .. __darkcyan .. " > " .. __white)
     local __input = io.read()
     __current = {}
     for i in string.gmatch(__input, "%S+") do
