@@ -2,7 +2,8 @@
 The description text can be found [here](https://github.com/DaarkDev/filelink/tree/CoDeX).
 
 How to install from terminal:
-(Make sure you are in `/usr/local/bin`)
+(Make sure you are in `/usr/local/bin` and that the echo arguments of command 3
+are in seperate lines, use vim or GNU nano to seperate them if they aren't)
 ```sh
 sudo git clone https://github.com/DaarkDev/codex/ codex_fold
 sudo -i
