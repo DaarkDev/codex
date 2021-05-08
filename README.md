@@ -5,13 +5,13 @@ The description text can be found [here](https://github.com/DaarkDev/filelink/tr
 ### Dependencies:
 - Lua (Should work with most if not all versions, use 5.1 for best experience)
 - [luafilesystem](https://keplerproject.github.io/luafilesystem/)
-<hr></hr>
+
 ### Tested and Maintained For:
 - [x] Manjaro i3 (21.0.2 Ornara)
 - [x] Latest Raspian Release
 
 *It may work on other linux distributions, it is just only tested on these.*
-<hr></hr>
+
 ### Installation:
 How to install from terminal:
 (Make sure you are in `/usr/local/bin` and that the echo arguments of command 3
@@ -24,4 +24,3 @@ sudo chmod +x codex
 ```
 If everything went successfully, you will now be able to run it via typing in `codex`
 to the terminal.
-<hr></hr>
