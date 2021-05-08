@@ -8,7 +8,8 @@ Dependencies:
 
 Tested and Maintained For:
 - [x] Manjaro i3 (21.0.2 Ornara)
-- [x] Latest Raspian Release 
+- [x] Latest Raspian Release
+
 *It may work on other linux distributions, it is just only tested on these.*
 
 How to install from terminal:
