@@ -5,7 +5,7 @@ The description text can be found [here](https://github.com/DaarkDev/filelink/tr
 ### Dependencies:
 - Lua (Should work with most if not all versions, use 5.1 for best experience)
 - [luafilesystem](https://keplerproject.github.io/luafilesystem/)
-
+<hr>
 ### Tested and Maintained For:
 - [x] Manjaro i3 (21.0.2 Ornara)
 - [x] Latest Raspian Release
